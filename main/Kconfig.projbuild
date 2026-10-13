@@ -1,0 +1,11 @@
+menu "CYD_STW configuration"
+
+    config CYD_STW_WIFI_SSID
+        string "Wi-Fi SSID (CSI traffic source AP)"
+        default ""
+
+    config CYD_STW_WIFI_PASSWORD
+        string "Wi-Fi password"
+        default ""
+
+endmenu

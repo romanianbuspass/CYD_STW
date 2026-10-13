@@ -1,0 +1,36 @@
+build/
+managed_components/
+dependencies.lock
+sdkconfig
+sdkconfig.old
+
+# ESP-IDF build artifacts
+*.bin
+*.elf
+*.o
+*.a
+*.map
+CMakeCache.txt
+CMakeFiles/
+dependencies.lock.old
+
+# PlatformIO (legacy workflow)
+.pio/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Runtime data / credentials (SD card files, logs)
+wifi.cfg
+csi_telemetry.csv
+*.log
